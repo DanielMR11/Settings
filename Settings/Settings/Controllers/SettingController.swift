@@ -20,7 +20,7 @@ class SettingController {
     //MARK: - Methods
     
     func toggleISOn(for setting: Setting) {
-        
+        setting.isOn = !setting.isOn
     }
         
     
